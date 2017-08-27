@@ -22,7 +22,16 @@
 	- logical values
 - 06 Conditionals
 	- if and false
-	
+- 07 loops
+	- else
+- 08 Operators
+	- operating on bitwise values, x | y, x & y, x ^ y, x << 4
+	- slice of a container is non-inclusive
+	- operator precedence
+- 09 Regular Expressions
+	- regular expression with re.compile
+- 10 Exceptions
+	- 
 
 
 

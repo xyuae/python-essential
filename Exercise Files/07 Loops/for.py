@@ -8,4 +8,8 @@ def main():
     for line in fh.readlines():
         print(line)
 
+    s = 'this is a string'
+    for i, char in enumerate(s):
+        print(i, char)
+
 if __name__ == "__main__": main()

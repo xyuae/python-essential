@@ -17,7 +17,19 @@ class Duck:
         return self.properties
 
     def get_property(self, key):
-        return self.properties.get(key, None)
+        return self.properties.get(key, None
+
+    @property
+    def color(self):
+        return self.properties.get('color', None)
+
+    @color.setter
+    def color(self, c):
+        self.properties['color'] = c
+
+    @color.deleter
+    def color(self):
+        del self.propeties['color']
 
 def main():
     donald = Duck(color = 'blue')
